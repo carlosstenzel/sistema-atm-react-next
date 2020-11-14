@@ -56,7 +56,7 @@ export default function Home() {
           }
         }
 
-        if (total === 1 || total === 3) {
+        if (total === 1 || total === 3 || conta[6] > 5) {
           let totalprev;
           let total = valor;
           let conta = [0, 0, 0, 0, 0, 0, 0];
